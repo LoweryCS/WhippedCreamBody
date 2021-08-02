@@ -76,21 +76,21 @@ li a:hover {
 .lav {    
     
     order: 1;
-    background-image: url('../img/IMG_3310.jpg');
+    background-image: url('img/IMG_3310.jpg');
     background-size: cover;
     color: rgb(230,230,250);
 }
 
 .lem {    
     
-    background-image: url('../img/IMG_3374.jpg');
+    background-image: url('img/IMG_3374.jpg');
     background-size: cover;
     color: rgb(226,239,66);
 }
 
 .tang {    
     
-    background-image: url('../img/IMG_3612.jpg');
+    background-image: url('img/IMG_3612.jpg');
     background-size: cover;
     color: rgb(243,196,71);
 }
