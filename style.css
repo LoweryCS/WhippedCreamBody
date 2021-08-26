@@ -201,7 +201,8 @@ body {
 
 @media all and (max-width: 972px) {    
 
-    body {        
+    body { 
+        background-color: #f3f3f3;       
         overflow: scroll;
     }
     
@@ -365,7 +366,8 @@ body {
         border: 2px solid rgb(215, 224, 83);        
         margin-top: 1100px;
         word-spacing: 2px;
-        align-self: center;        
+        align-self: center; 
+        background-color: #fafce1;       
     }
     
     .about p {
@@ -383,6 +385,7 @@ body {
         border-radius: 10px;         
         margin-top: 2050px;
         align-self: center;
+        background-color: #fafce1;
     }
     
     .soc {
@@ -400,7 +403,8 @@ body {
 
 @media all and (max-width: 812px) { 
     
-    body {        
+    body {   
+        background-color: #f3f3f3;     
         overflow: scroll;
     }
     
@@ -563,7 +567,8 @@ body {
         border: 2px solid rgb(215, 224, 83);        
         margin-top: 1100px;
         word-spacing: 2px;
-        align-self: center;        
+        align-self: center; 
+        background-color: #fafce1;       
     }
     
     .about p {
@@ -581,6 +586,7 @@ body {
         border-radius: 10px;         
         margin-top: 2050px;
         align-self: center;
+        background-color: #fafce1;
     }
     
     .soc {
