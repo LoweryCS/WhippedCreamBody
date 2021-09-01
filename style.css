@@ -201,8 +201,7 @@ body {
 
 @media all and (max-width: 972px) {    
 
-    body { 
-        background-color: #f3f3f3;       
+    body {        
         overflow: scroll;
     }
     
@@ -260,7 +259,7 @@ body {
         height: 60%;
         border-radius: 10px;
         overflow: hidden;
-        border: 2px solid rgb(215, 224, 83);
+        border: 2px solid hsl(7, 100%, 59%);
         align-self: center;
     }
     
@@ -366,8 +365,7 @@ body {
         border: 2px solid rgb(215, 224, 83);        
         margin-top: 1100px;
         word-spacing: 2px;
-        align-self: center; 
-        background-color: #fafce1;       
+        align-self: center;        
     }
     
     .about p {
@@ -385,7 +383,6 @@ body {
         border-radius: 10px;         
         margin-top: 2050px;
         align-self: center;
-        background-color: #fafce1;
     }
     
     .soc {
@@ -403,8 +400,7 @@ body {
 
 @media all and (max-width: 812px) { 
     
-    body {   
-        background-color: #f3f3f3;     
+    body {        
         overflow: scroll;
     }
     
@@ -461,7 +457,7 @@ body {
         height: 60%;
         border-radius: 10px;
         overflow: hidden;
-        border: 2px solid rgb(215, 224, 83);
+        border: 2px solid hsl(7, 100%, 59%);
         align-self: center;
     }
     
@@ -567,8 +563,7 @@ body {
         border: 2px solid rgb(215, 224, 83);        
         margin-top: 1100px;
         word-spacing: 2px;
-        align-self: center; 
-        background-color: #fafce1;       
+        align-self: center;        
     }
     
     .about p {
@@ -586,7 +581,6 @@ body {
         border-radius: 10px;         
         margin-top: 2050px;
         align-self: center;
-        background-color: #fafce1;
     }
     
     .soc {
@@ -601,3 +595,25 @@ body {
         font-weight: bold;
     }
 }
+
+.cont {
+    background-color: blue;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.sze {
+    color: coral;
+    font-size: 40px;
+}
+
+select {
+    color: rgb(228, 243, 22);
+    background-color: darkorange;
+}
+

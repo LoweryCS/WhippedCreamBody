@@ -8,7 +8,7 @@ body {
     background-color: #f3f3f3;
     font-family: 'Quicksand', sans-serif;  
     border-style: solid;
-    border-color: rgb(215, 224, 83);     
+    border-color: rgb(215, 224, 83);         
 }
 
 .nav { 
@@ -57,7 +57,9 @@ body {
 
 .lotion {
     display: flex;
-    padding-bottom: 15px;          
+    padding-bottom: 15px;
+    align-items: center;
+    justify-content: center;          
 }
 
 .lotion1 {
@@ -65,28 +67,24 @@ body {
     width: 200px;
     margin: 10px;
     text-align: center;
-    margin-top: 4rem;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Great Vibes', cursive;
+    margin-top: 20px;    
     font-size: 40px;  
     min-height: 70vh;
     flex-grow: 1;
     flex-basis: 0;
     align-self: flex-end; 
     border: 2px solid rgb(215, 224, 83);
+    position: relative;
 }
 
-.lav {    
-    order: 1;
-    background-image: url('../img/IMG_3310.jpg');
-    background-size: cover;
-    color: rgb(198, 166, 226);
+.lotion1 h2 {
+    font-family: 'Great Vibes', cursive;
+    margin-top: 30px;
 }
 
-.buy {    
-    border-color: rgb(215, 224, 83);
+.buy {     
+    visibility: hidden;
+    border: 2px solid rgb(215, 224, 83);
     text-decoration: none;
     background-color: rgb(245, 68, 68);
     width: 80px;
@@ -94,21 +92,21 @@ body {
     cursor: pointer;    
     font-size: 25px;
     border-radius: 20%;
-    margin-top: 50px;
+    margin-top: 250px;
+    color: rgb(226,239,66);
 }
 
-.lav-buy {
-    color: rgb(198, 166, 226);    
+.lav {    
+    order: 1;
+    background-image: url('../img/IMG_3310.jpg');
+    background-size: cover;
+    color: rgb(205, 187, 221);
 }
 
 .lem {    
     
     background-image: url('../img/IMG_3374.jpg');
     background-size: cover;
-    color: rgb(226,239,66);
-}
-
-.lem-buy {
     color: rgb(226,239,66);
 }
 
@@ -119,15 +117,166 @@ body {
     color: rgb(243,196,71);
 }
 
-.tan-buy {
-    color: rgb(243,196,71);
+.payment {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    background-color: hsla(7, 100%, 59%, 0.671);
+           
 }
 
-h2 {
-    margin-top: -20px;
+.payment td {
+    color: rgb(215, 224, 83);
+    font-size: 30px;
 }
 
-@media all and (max-width: 740px) {
+.payment select {    
+    border: 2px solid rgb(215, 224, 83);
+    color: rgb(215, 224, 83);
+    background-color: hsla(7, 100%, 59%, 0.671);
+}
+
+.view-cart {
+    display: flex;    
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@media all and (max-width: 1080px) {
+    .nav { 
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin-top: 25px;   
+        text-align: center;
+          
+        width: 100%;
+        height: 20px;           
+    }
+    
+    .nav ul  {     
+        list-style-type: none;
+        display: flex;           
+    }
+    
+    .nav li a {     
+        text-decoration: none;
+        margin: 0 50px 0 50px;  
+        color: rgb(245, 68, 68);        
+    }
+    
+    .nav li a:hover {
+        color: rgb(215, 224, 83);
+    }
+    
+    .nav img {
+        margin-top: -10px;
+    }
+    
+    .title {
+        text-align: center;
+        margin: 60px 0 20px 0;
+        font-family: 'Great Vibes', cursive;
+        font-size: 40px;
+    }
+    
+    .info {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .lotion {
+        display: flex;
+        padding-bottom: 15px;
+        align-items: center;
+        justify-content: center;          
+    }
+    
+    .lotion1 {
+        background-color: coral;
+        width: 94%;
+        margin: 10px;
+        text-align: center;
+        margin-top: 20px;    
+        font-size: 40px;  
+        min-height: 70vh;
+        flex-grow: 1;
+        flex-basis: 0;
+        align-self: flex-end; 
+        border: 2px solid rgb(215, 224, 83);
+        position: relative;
+    }
+    
+    .lotion1 h2 {
+        font-family: 'Great Vibes', cursive;
+        
+    }
+    
+    /*.buy {     
+        visibility: hidden;
+        border: 2px solid rgb(215, 224, 83);
+        text-decoration: none;
+        background-color: rgb(245, 68, 68);
+        width: 80px;
+        height: 50px;    
+        cursor: pointer;    
+        font-size: 25px;
+        border-radius: 20%;
+        margin-top: 250px;
+        color: rgb(226,239,66);
+    }*/
+    
+    .lav {    
+        order: 1;
+        background-image: url('../img/IMG_3310.jpg');
+        background-size: cover;
+        color: rgb(205, 187, 221);
+    }
+    
+    .lem {         
+        background-image: url('../img/IMG_3374.jpg');
+        background-size: cover;
+        color: rgb(226,239,66);
+    }
+    
+    .tang {        
+        background-image: url('../img/IMG_3612.jpg');
+        background-size: cover;
+        color: rgb(243,196,71);
+    }    
+    
+    .payment {  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 200px;
+        background-color: hsla(7, 100%, 59%, 0.671);  
+    }
+
+    
+    
+    .payment td {
+        color: rgb(215, 224, 83);
+        font-size: 30px;
+    }
+    
+    .payment select {    
+        border: 2px solid rgb(215, 224, 83);
+        color: rgb(215, 224, 83);
+        background-color: hsla(7, 100%, 59%, 0.671);
+    }
+}
+
+@media all and (max-width: 812px) {
     .nav { 
         display: flex;
         align-content: center;
@@ -245,5 +394,135 @@ h2 {
     
     h2 {
         margin-top: -20px;
+    }
+}
+
+@media all and (max-width: 736px) {
+    .nav { 
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin-top: 25px;   
+        text-align: center;
+          
+        width: 100%;
+        height: 20px;           
+    }
+    
+    .nav ul  {     
+        list-style-type: none;
+        display: flex;           
+    }
+    
+    .nav li a {     
+        text-decoration: none;
+        margin: 0 50px 0 50px;  
+        color: rgb(245, 68, 68);        
+    }
+    
+    .nav li a:hover {
+        color: rgb(215, 224, 83);
+    }
+    
+    .nav img {
+        margin-top: -10px;
+    }
+    
+    .title {
+        text-align: center;
+        margin: 60px 0 20px 0;
+        font-family: 'Great Vibes', cursive;
+        font-size: 40px;
+    }
+    
+    .info {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .lotion {
+        display: flex;
+        padding-bottom: 15px;
+        align-items: center;
+        justify-content: center;          
+    }
+    
+    .lotion1 {
+        background-color: coral;
+        width: 94%;
+        margin: 10px;
+        text-align: center;
+        margin-top: 20px;    
+        font-size: 40px;  
+        min-height: 70vh;
+        flex-grow: 1;
+        flex-basis: 0;
+        align-self: flex-end; 
+        border: 2px solid rgb(215, 224, 83);
+        position: relative;
+    }
+    
+    .lotion1 h2 {
+        font-family: 'Great Vibes', cursive;
+        
+    }
+    
+    /*.buy {     
+        visibility: hidden;
+        border: 2px solid rgb(215, 224, 83);
+        text-decoration: none;
+        background-color: rgb(245, 68, 68);
+        width: 80px;
+        height: 50px;    
+        cursor: pointer;    
+        font-size: 25px;
+        border-radius: 20%;
+        margin-top: 250px;
+        color: rgb(226,239,66);
+    }*/
+    
+    .lav {    
+        order: 1;
+        background-image: url('../img/IMG_3310.jpg');
+        background-size: cover;
+        color: rgb(205, 187, 221);
+    }
+    
+    .lem {         
+        background-image: url('../img/IMG_3374.jpg');
+        background-size: cover;
+        color: rgb(226,239,66);
+    }
+    
+    .tang {        
+        background-image: url('../img/IMG_3612.jpg');
+        background-size: cover;
+        color: rgb(243,196,71);
+    }    
+    
+    .payment {  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 200px;
+        background-color: hsla(7, 100%, 59%, 0.671);   
+    }
+
+    
+    
+    .payment td {
+        color: rgb(215, 224, 83);
+        font-size: 30px;
+    }
+    
+    .payment select {    
+        border: 2px solid rgb(215, 224, 83);
+        color: rgb(215, 224, 83);
+        background-color: hsla(7, 100%, 59%, 0.671);
     }
 }

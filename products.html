@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="css/products.css">
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <title>Body Butter Products</title>
 </head>
@@ -25,17 +25,70 @@
 
     <div class="lotion">
         <div class="lotion1 lav">
-            <h2>Lavender Scent</h2>
-            <a href="#"><button class="buy lav-buy">$10.00</button></a>
+            <h2>Lavender<br>Scent</h2>            
+            <span class="payment pay-lav">
+                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="W8V95XKZPMLVU">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Choose a size">Choose a size</td></tr><tr><td><select name="os0">
+                        <option value="8 oz">8 oz $10.00 USD</option>
+                        <option value="16 oz">16 oz $20.00 USD</option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="hidden" name="currency_code" value="USD">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+            </span>
         </div>
         <div class="lotion1 lem">
-            <h2>Lemon Scent</h2>
-            <a href="#"><button class="buy lem-buy">$10.00</button></a>
+            <h2>Lemon<br>Scent</h2>
+            
+            <span class="payment pay-lem">
+                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="69CYE29524FPS">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Choose a size">Choose a size</td></tr><tr><td><select name="os0">
+                        <option value="8 oz">8 oz $10.00 USD</option>
+                        <option value="16 oz">16 oz $20.00 USD</option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="hidden" name="currency_code" value="USD">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>                    
+            </span>
         </div>
         <div class="lotion1 tang">
-            <h2>Tangerine Scent</h2>
-            <a href="#"><button class="buy tan-buy">$10.00</button></a>
+            <h2>Citrus<br>Scent</h2>
+            
+            <span class="payment pay-tang">
+                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="9A833GXG285WC">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Choose a size">Choose a size</td></tr><tr><td><select name="os0">
+                        <option class="bckgrd" value="8 oz">8 oz $10.00 USD</option>
+                        <option class="bckgrd" value="16 oz">16 oz $20.00 USD</option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="hidden" name="currency_code" value="USD">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>                    
+            </span>
         </div>
     </div>
+    <span class="view-cart">
+        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+    </span>
+    <script src="js/productBtn.js"></script>
 </body>
 </html>
