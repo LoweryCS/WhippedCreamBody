@@ -46,6 +46,7 @@ body {
     margin: 60px 0 20px 0;
     font-family: 'Great Vibes', cursive;
     font-size: 40px;
+    color: hsl(7, 100%, 59%);
 }
 
 .info {

@@ -41,6 +41,14 @@ body {
     margin-top: -10px;
 }
 
+.title {
+    text-align: center;
+    margin: 60px 0 20px 0;
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    color: hsl(7, 100%, 59%);
+}
+
 .wrapper {    
     display: flex;    
     width: 100%;
@@ -433,7 +441,7 @@ body {
     
     .nav img {
         margin-top: -10px;
-    }
+    }    
     
     .wrapper {    
         display: flex;    
